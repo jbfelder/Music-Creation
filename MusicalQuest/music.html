@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Musical Creation </title>
+		<script src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+		<script src="howler.core.js"></script>
+		<script src="musicpaige.js"></script>
+		<script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="music.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+	</head>
+
+	<body>
+	<div class="videoContainer">
+		<video id="background" class="video" autoplay="autoplay" loop="loop" muted="">
+			<source src="turntable.mp4" type="video/mp4" />
+			<source src="turntable.ogv" type="video/ogg" />
+			<source src="turntable.webm" type="video/webm" />
+			browser doesn't support video.
+		</video>
+	</div>
+
+	<h1 id="title">Welcome to the Musical Creation! </h1>
+	<h2 id="header">
+		For this game, you will need to use the full power of your imagination in order to create unique sounds and songs. If you want more of a challenge, there are also two types of 'Simon Says'. All games and sounds come from two genres: Electro and HipHop. Whenever you are ready, choose one of the following options:
+	</h2>
+
+	<h3 id="options"> ELECTRO - LB   or   HIP-HOP - RB   or   TUTORIAL - XBOX BUTTON</h3>
+
+	<div id="prompt"></div>
+	<div id="display"></div>
+
+	</body>
+
+
+</html>

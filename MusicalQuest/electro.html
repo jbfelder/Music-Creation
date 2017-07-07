@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Electronic Creation </title>
+		<script src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+		<script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+		<script src="howler.core.js"></script>
+		<script src="electro.js"></script>
+		<link rel="stylesheet" type="text/css" href="electro.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+ 	</head>
+
+	<body>
+	<div class="videoContainer">
+		<video id="background" class="video" autoplay="autoplay" loop="loop" muted="">
+			<source src="waveform.mp4" type="video/mp4" />
+			<source src="waveform.ogv" type="video/ogg" />
+			<source src="waveform.webm" type="video/webm" />
+			browser doesn't support video.
+		</video>
+	</div>
+
+	<h1 id="title">Welcome to the Electronic Creation! </h1>
+	<h2>Press A, B, X and Y to hear the available sounds. When you are ready, press start to begin the background beat. Press select to stop the background beat. To return to the home page press LT. To start a new game of electro Simon Says, press RT.
+
+
+	<div id="prompt"></div>
+	<div id="display"></div>
+
+	</body>
+
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Electro Simon Says </title>
+		<script src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+		<script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+		<script src="howler.core.js"></script>
+		<script src="eround1.js"></script>
+		<link rel="stylesheet" type="text/css" href="electroround1.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+
+ 	</head>
+
+	<body>
+	<div class="videoContainer">
+		<video id="background" class="video" autoplay="autoplay" loop="loop" muted="">
+			<source src="DJ - electro.mp4" type="video/mp4" />
+			<source src="DJ - electro.ogv" type="video/ogg" />
+			<source src="DJ - electro.webm" type="video/webm" />
+			browser doesn't support video.
+		</video>
+	</div>
+
+	<h1 id="title">Welcome to the Electro Simon Says! </h1>
+	<h2> Your goal is to press the same keys spoken to you. When you are ready, press start to begin the game. To skip to round 2, press the RT. To go back to the main page, press the LT.</h2>
+
+
+	<div id="prompt"></div>
+	<div id="display"></div>
+
+	</body>
+
+
+</html>
